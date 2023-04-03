@@ -3,4 +3,63 @@ body{
     margin: 0;
     background-color: rgb(240, 232, 225);
     color: rgb(36, 36, 36);
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header img {
+    width: 75%;
+    height: 75%;
+}
+
+.header h1 {
+    padding: 0.25em;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.ingredients-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.ingredients-header {
+    align-self: center;
+}
+
+.ingredients {
+    line-height: 2em;
+}
+
+.directions-container {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    padding-top: 3em;
+}
+
+.directions-header {
+    align-self: center;
+}
+
+.directions p {
+    margin-top: 1.5em;
+    line-height: 1.5em;
+    text-align: justify;
 }
