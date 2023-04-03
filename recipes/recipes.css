@@ -58,8 +58,15 @@ body{
     align-self: center;
 }
 
-.directions p {
+.directions li {
     margin-top: 1.5em;
     line-height: 1.5em;
+    margin-left: 5em;
     text-align: justify;
 }
+
+.directions li::marker {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
